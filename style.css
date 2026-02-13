@@ -1,0 +1,62 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #ffcce0; /* soft pink background */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for content */
+.container {
+  margin-top: 100px;
+}
+
+/* Title */
+h1 {
+  color: #ff1a75; /* bright pink text */
+  font-size: 2.5rem;
+}
+
+/* Kitten image */
+.kitten {
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 26, 117, 0.4);
+}
+
+/* Buttons section */
+.buttons {
+  margin-top: 30px;
+  position: relative; /* Needed for "No" button movement */
+}
+
+/* General button style */
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s ease;
+}
+
+/* Yes button style */
+#yesBtn {
+  background-color: #ff4da6; /* pink button */
+  color: white;
+}
+
+#yesBtn:hover {
+  background-color: #e60073; /* darker pink on hover */
+}
+
+/* No button style */
+#noBtn {
+  background-color: #ff99cc; /* lighter pink */
+  color: white;
+  position: absolute; /* allows it to move around */
+}
